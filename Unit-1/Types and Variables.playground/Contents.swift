@@ -1,6 +1,5 @@
 import UIKit
 
-//var str = "Hello, playground"
 
 //============================================================================
 //                          STRING
@@ -12,8 +11,30 @@ var str = "Hello, Playground"
 // Type inference: implicit declaration of a variable
 var fellowName = "Kelby Mittan"
 
+print(fellowName)
+
+fellowName = "Kelby"
+
+print(fellowName)
+
+let fullName = "Kelby" + " Mittan"
+
+print(fullName)
+
+print("Person's full name is \(fullName)")
+
+print(fullName + " Person's full name is \(fullName)")
+
 // Type Annotation - explicity writing the data type using : (colon)
 var cohort: String = "iOS 6.3"
+
+let lowercaseName = "kelby"
+let uppercaseName = "Kelby"
+
+let stringResult = lowercaseName == uppercaseName
+
+let alphabeticalOrder =  "Kelby" < "Lorraine"
+print("alphabeticalOrder result \(alphabeticalOrder)")
 
 //============================================================================
 //                         CHARACTER
@@ -38,6 +59,10 @@ futureAge
 
 print("Age of fellow 8 years from now is \(futureAge)")
 
+let integerDivision = 16 / 3
+
+print("integer division is \(integerDivision)")
+
 //============================================================================
 //                         DOUBLES
 //============================================================================
@@ -52,6 +77,23 @@ print(balance)
 balance -= 180000
 
 print(balance)
+
+let floatingPointDivision = 16.0 / 3.0
+
+print("integer division is \(floatingPointDivision)")
+
+
+//============================================================================
+//                         Float vs. Doubles
+// Float holds 32-bit vs 64-bit of a Double
+//============================================================================
+
+let floatNum: Float = 67.990776088934
+let doubleNum = 67.990776088934
+
+print("float is \(floatNum) and double is \(doubleNum)")
+
+let accountBalance = Double(floatNum) + doubleNum
 
 //============================================================================
 //                 Boolean - Bool, Comparison
