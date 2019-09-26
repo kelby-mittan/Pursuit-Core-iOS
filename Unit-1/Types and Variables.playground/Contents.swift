@@ -111,3 +111,5 @@ let a = numOne == numTwo
 let numFive = 24%5
 let numSix = 24.0%5.0
 let c = numFive == numSix
+
+let pi = 3.14
