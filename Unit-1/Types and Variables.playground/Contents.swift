@@ -96,20 +96,8 @@ var even = 12 % 6
 print(even)
 
 
-let numSeven = 4.0 + 1.2
-let numEight = 5.0 + 0.2
-let d = numSeven == numEight
-
-//let numThree = 24/5
-//let numFour = 24.0/5.0
-//let b = numThree == numFour
-
-let numOne = 4.0
-let numTwo = 4.0
-let a = numOne == numTwo
-
-let numFive = 24%5
-let numSix = 24.0%5.0
-let c = numFive == numSix
+//============================================================================
+//                         Constants
+//============================================================================
 
 let pi = 3.14
