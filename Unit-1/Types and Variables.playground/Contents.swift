@@ -54,7 +54,7 @@ balance -= 180000
 print(balance)
 
 //============================================================================
-//                         Boolean - Bool, Comparison
+//                 Boolean - Bool, Comparison
 //============================================================================
 
 var result = 70 < 100
@@ -86,7 +86,7 @@ print(marathonTime)
 
 
 //============================================================================
-//                         Modulo operator or Remainder operator
+//               Modulo operator or Remainder operator
 //============================================================================
 
 var modResult = 16 % 3
