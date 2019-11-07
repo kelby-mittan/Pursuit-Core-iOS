@@ -159,7 +159,7 @@ case 0:
 default:
     for (index, char) in myNameIs.enumerated() {
         if index % 2 == 0 {
-            print(char)
+            print(char, terminator: "")
         }
     }
 }
